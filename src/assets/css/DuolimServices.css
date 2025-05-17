@@ -1,0 +1,38 @@
+.duolim-services-container {
+  padding: 0; /* Igual que .about-us-container */
+  max-width: 1200px; /* Igual que .about-us-container */
+  margin: 0 auto; /* Centra el contenedor horizontalmente */
+  min-height: 10vh;
+}
+
+.duolim-row {
+  width: 100%;
+}
+
+.duolim-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.duolim-title {
+  color: #1a1a1a;
+  margin-bottom: 16px;
+}
+
+.duolim-list {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.duolim-text-col {
+  padding: 20px;
+  text-align: justify; /* ✅ Esto justifica el texto */
+}
+
+@media (max-width: 768px) {
+  .duolim-text-col {
+    padding: 10px;
+  }
+}

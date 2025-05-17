@@ -1,0 +1,39 @@
+/* src/components/ExpandCard.css */
+
+.expand-card-container {
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;  /* Distribuye las tarjetas */
+  margin: 0;  /* Elimina el margen del Row */
+}
+
+.company-card {
+  border: 10px solid transparent;  /* Borde de 10px */
+  border-radius: 8px;
+  flex: 1;  /* Las tarjetas ocupan el mismo espacio */
+  margin: 0;  /* Elimina la separación entre las tarjetas */
+}
+
+.company-card.duolim {
+  border-color: #1890ff; /* celeste */
+}
+
+.company-card.duoman {
+  border-color: #f5a623; /* amarillo naranjoso */
+}
+
+.company-card.duoseg {
+  border-color: #52c41a; /* verde */
+}
+
+.company-cover-image {
+  height: 200px;
+  object-fit: cover;
+}
+
+.company-content {
+  margin-top: 10px;
+}

@@ -23,3 +23,7 @@ Ejecutar el comando "npm run dev" por terminal
 
 3. **Libreria de componentes**  
    Ejecutar el comando "npm install antd" por terminal
+
+3. **Instalar librerias de React**  
+   Ejecutar el comando "npm install react-router-dom" por terminal
+   

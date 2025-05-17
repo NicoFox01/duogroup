@@ -1,0 +1,33 @@
+.navbar-header {
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Distribute space between logo and menu */
+  padding: 0px; /* Add some padding to the sides */
+  width: 100%; /* Full width */
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.navbar-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* Arrange menu items horizontally */
+  align-items: center; /* Vertically align items */
+}
+
+.navbar-menu li {
+  margin-left: 2rem; /* Mantener el margen actual */
+}
+
+.navbar-menu li:first-child {
+  margin-left: 0; /* Remove left margin for the first item */
+}
+
+.navbar-menu li a { /* Estilo para los enlaces dentro de los Menu.Item */
+  font-size: 0.9rem; /* Reducir el tamaño de la fuente */
+}
