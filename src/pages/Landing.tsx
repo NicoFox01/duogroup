@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import ExpandCard from "../components/ExpandCard";
-import "../assets/css/Landing.css";
+import "../assets/css/landing.css";
 class Landing extends Component {
     render(){
         return(
