@@ -1,0 +1,71 @@
+.formulario-contenedor,
+.contact-container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+
+}
+
+.info-contenedor,
+.contact-info-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: rgb(197, 197, 197);
+  padding: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  min-height: 70vh;
+}
+
+.titulo-contenedor,
+.contact-title {
+  width: 40%;
+  text-align: center;
+  padding: 0px;
+}
+
+.titulo-contenedor img,
+.contact-title img {
+  width: 100%;
+  height: auto;
+  margin-top: 0px;
+}
+
+.formulario-contenedor-interno,
+.contact-form-container {
+  width: 60%;
+  padding: 20px;
+}
+
+.formulario-contenedor-interno .ant-form-item,
+.contact-form-container .ant-form-item {
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+.formulario-titulo {
+  text-align: center;
+}
+
+.contact-form {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+
+.botones-formulario {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+@media (max-width: 768px) {
+  .titulo-contenedor,
+  .contact-title {
+    width: 100%;
+  }
+  .formulario-contenedor-interno,
+  .contact-form-container {
+    width: 100%;
+  }
+}

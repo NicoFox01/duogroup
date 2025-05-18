@@ -1,0 +1,38 @@
+.duogroup-services-container {
+  padding: 0; 
+  max-width: 1200px; 
+  margin: 0 auto; 
+  min-height: 10vh;
+}
+
+.duogroup-row {
+  width: 100%;
+}
+
+.duogroup-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.duogroup-title {
+  color: #1a1a1a;
+  margin-bottom: 16px;
+}
+
+.duogroup-list {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.duogroup-text-col {
+  padding: 20px;
+  text-align: justify; 
+}
+
+@media (max-width: 768px) {
+  .duogroup-text-col {
+    padding: 10px;
+  }
+}

@@ -1,31 +1,31 @@
 import React from "react";
 import { Layout, Row, Col, Typography } from "antd";
 import DuolimImage from "../assets/images/DuolimServices.png";
-import "../assets/css/DuolimServices.css";
+import "../assets/css/DuogroupServices.css";
 
 const { Title, Paragraph } = Typography;
 
 const DuolimServices: React.FC = () => {
   return (
-    <Layout className="duolim-services-container">
-      <Row className="duolim-row" align="middle" justify="center">
+    <Layout className="duogroup-services-container">
+      <Row className="duogroup-row" align="middle" justify="center">
         {/* Imagen izquierda */}
-        <Col xs={24} md={12} className="duolim-image-col">
+        <Col xs={24} md={12} className="duogroup-image-col">
           <img
             src={DuolimImage}
             alt="Servicios de Duolim"
-            className="duolim-image"
+            className="duogroup-image"
           />
         </Col>
 
         {/* Texto derecha */}
-        <Col xs={24} md={12} className="duolim-text-col">
+        <Col xs={24} md={12} className="duogroup-text-col">
           <Typography>
-            <Title level={2} className="duolim-title">Nuestros Servicios</Title>
+            <Title level={2} className="duogroup-title">Nuestros Servicios</Title>
             <Paragraph>
               Nuestro éxito en el logro de los objetivos radica en aplicar y respetar minuciosamente cada paso de nuestra metodología:
             </Paragraph>
-            <ul className="duolim-list">
+            <ul className="duogroup-list">
               <li>Comprensión de la necesidad del cliente</li>
               <li>Visita a las instalaciones para un correcto relevamiento.</li>
               <li>Análisis de las necesidades y las instalaciones.</li>

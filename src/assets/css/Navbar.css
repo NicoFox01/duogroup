@@ -3,8 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between; /* Distribute space between logo and menu */
-  padding: 0px; /* Add some padding to the sides */
-  width: 100%; /* Full width */
+  padding: 0 50px; /* Add some padding to the sides */
 }
 
 .logo {
@@ -21,7 +20,7 @@
 }
 
 .navbar-menu li {
-  margin-left: 2rem; /* Mantener el margen actual */
+  margin-left: 6rem; /* Mantener el margen actual */
 }
 
 .navbar-menu li:first-child {
@@ -29,5 +28,5 @@
 }
 
 .navbar-menu li a { /* Estilo para los enlaces dentro de los Menu.Item */
-  font-size: 0.9rem; /* Reducir el tamaño de la fuente */
+  font-size: 0.8rem; /* Reducir el tamaño de la fuente */
 }

@@ -39,7 +39,7 @@ const Navbar = () => {
             <Link to="/WorkWithUs">Trabaja con Nosotros</Link>
           </Menu.Item>
           <Menu.Item key="cotizaciones">
-            <Link to="/ContactUs">Contizaciones</Link>
+            <Link to="/ContactUs">Cotizaciones</Link>
           </Menu.Item>
         </Menu>
       </Header>

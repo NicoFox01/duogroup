@@ -1,8 +1,4 @@
-#root {
-  max-width: 100%;
-  padding: 0;
-  text-align: center;
-}
+/* Estilos específicos para App.jsx */
 
 .logo {
   height: 6em;
@@ -10,9 +6,11 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
